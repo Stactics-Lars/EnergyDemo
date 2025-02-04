@@ -160,7 +160,7 @@ if page == "Smart Home Optimization":
         "Appliance Schedule (1=ON)": optimized_schedule,
         "Battery Level (%)": battery_state,
         "Grid Usage (kWh)": grid_usage
-    }, index=[datetime.time(i, 0).strftime('%H:%M') for i in range(24)])
+    }, index=[datetime.time(i, 0).strftime('%H') for i in range(24)])
     
     fig, ax1 = plt.subplots(figsize=(10,6))
     ax2 = ax1.twinx()
