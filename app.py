@@ -190,8 +190,6 @@ elif page == "Factory Optimization":
     st.markdown(
         """
         This demo scales up the simulation to represent a factory’s energy management.
-        Adjust the parameters below to see how production operations can be scheduled
-        for cost savings while taking advantage of on-site solar generation and a large battery system.
         """
     )
     
